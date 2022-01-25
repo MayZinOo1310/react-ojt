@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { useHistory } from 'react-router-dom';
 import List from './components/List';
-import ImageUpload from './components/ImageUpload';
+//import ImageUpload from './components/ImageUpload';
 import { auth } from "./firebase";
 
 function Dashboard() {
@@ -45,7 +45,7 @@ function Dashboard() {
         <button onClick={upload}>Upload</button>
       </center>*/}
       <List />
-      <ImageUpload />
+      {/*<ImageUpload />*/}
       {/*<div className="dashboard">
         <div className="dashboard__container">
           Logged in as
